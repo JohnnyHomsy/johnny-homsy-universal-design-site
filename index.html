@@ -1,34 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Johnny Homsy | Class Portal</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
 
-  <title> Johnny Homsy | Class Portal </title>
-<head>
-<body> 
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
-<!-- Top of Page: Title -->
+<div class="container">
+
   <header>
-     <h1> Johnny Homsy </h1>
+    <h1>Johnny Homsy</h1>
+    <p class="tagline">Finance &amp; Computer Science Integration | CU Boulder</p>
   </header>
 
-<!-- Links to Future Assignments -->
-  <nav> 
-      <h2> My Assignments </h2>
-      <ul>
-          <li id="assignment-1"><a href="https://johnnyhomsy.github.io/genghis-khan-html5/">Genghis Khan: Semantic HTML5</a></li>
-          <li id="assignment-2"><a href="https://johnnyhomsy.github.io/rmnp-trail-guide/">RMNP Trail Guide: Forms and Tables</a></li>
-          <li><a href="#">Assignment 3</a></li>
-      </ul>
+  <nav>
+    <h2 class="sr-only">Coding projects</h2>
+    <ul class="nav-list">
+      <li><a href="https://johnnyhomsy.github.io/genghis-khan-html5/">Lab #2 &mdash; Coding &amp; Posting a Web Page</a></li>
+      <li><a href="https://johnnyhomsy.github.io/rmnp-trail-guide/">Lab #3 &mdash; Tables, Forms &amp; Screen Reading</a></li>
+      <li><a href="#">Lab #4 &mdash; Accessible CSS Layout</a></li>
+    </ul>
   </nav>
 
-    <!-- About Me Section -->
-  <main> 
-    <h2> About Me</h2>
-    <p> Hi! I'm Johnny, a senior studying Finance & Computer Science Integration here at CU. I'm from Austin, TX and graduate this December! Sko Buffs.</p>
+  <main id="main-content">
+    <section id="about">
+      <h2>About me</h2>
+
+      <div class="about-grid">
+        <img src="img/johnny.jpg" alt="Johnny Homsy, smiling outdoors in Boulder" width="400" height="400">
+
+        <div>
+          <p>
+            Hi, I'm Johnny. I'm a senior at CU Boulder's Leeds School of Business studying
+            Finance and Computer Science Integration, and I graduate this December. I grew
+            up in Austin, Texas, and came to Colorado to run Division I track and field,
+            which I competed in before shifting my focus to school and work. 
+          </p>
+          <p>
+            Right now I'm a supply chain intern at AMP Robotics, a company that builds
+            AI-driven systems for sorting recyclable waste. A lot of my work there involves
+            modeling equipment costs and building reporting pipelines, which is where my
+            Alteryx and spreadsheet background gets used hardest. I'm taking this class
+            because I've built plenty of things that work and very few that are genuinely
+            accessible, and I'd like to close that gap before I graduate. Sko Buffs!
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <footer>
+    <h2 class="sr-only">Contact</h2>
+    <address>
+      <a href="mailto:johnny.homsy@colorado.edu">johnny.homsy@colorado.edu</a>
+    </address>
+    <p><small>&copy; 2026 Johnny Homsy</small></p>
+  </footer>
+
+</div>
 </body>
 </html>
